@@ -13,5 +13,3 @@ except OSError as hibakod:
 # Beállítjuk a függvény típusait
 ckonyvtar0.duplaz.argtypes = [ctypes.c_int]       # bemenet: egy int
 ckonyvtar0.duplaz.restype = ctypes.c_int          # visszatérési érték: int
-
-
