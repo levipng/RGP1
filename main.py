@@ -1,5 +1,6 @@
 import ctypes
 import sys
+import pygame
 
 fajlnev = "windows_c.dll" if sys.platform.startswith('win') else "linux_c.so"
 
@@ -13,4 +14,4 @@ except OSError as hibakod:
 ckonyvtar0.duplaz.argtypes = [ctypes.c_int]       # bemenet: egy int
 ckonyvtar0.duplaz.restype = ctypes.c_int          # visszatérési érték: int
 
-print(ckonyvtar0.duplaz(3))
+
