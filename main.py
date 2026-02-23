@@ -1,6 +1,5 @@
 import ctypes
 import sys
-import tkinter
 
 fajlnev = "windows_c.dll" if sys.platform.startswith('win') else "linux_c.so"
 
